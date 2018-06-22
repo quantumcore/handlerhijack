@@ -2,7 +2,7 @@
 MSF:Handler_Hijack is a Tool Designed for Systems Compromised by
 Metasploit Multi/Handler and Reverse_tcp payload. 
 
-This tool breaks the Connection and Connects itself to it. While the Meterpreter Session
+This tool Connects itself to the Multi/Handler in Metasploit. While the Meterpreter Session
 for them Died and then Connected back (to us) The Attacker won't be able to Use the Meterpreter.
 
 Currently I was able to do these to things when Connected. Spam them
