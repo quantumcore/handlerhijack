@@ -4,13 +4,18 @@ require 'colorize'
 def main()
 
     def python_connect
-        puts "[*] HOST = #{$host}".blue
-        puts "[*] PORT = #{$port}".blue
-        
-        puts "[!] Executing pyConnector.".cyan
-        system("python3 pyConnector.py")
+        begin
+            puts "[*] HOST = #{$host}".blue
+            puts "[*] PORT = #{$port}".blue
+            
+            puts "[!] Executing pyConnector.".cyan
+            system("python3 pyConnector.py")
 
-        puts "[*] Session Ended.".yellow
+            puts "[*] Session Ended.".yellow
+        rescue Interrupt => e 
+            puts "[RUBY] OK.".yellow
+
+        end
 
     end
     

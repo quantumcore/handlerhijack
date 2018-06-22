@@ -18,15 +18,16 @@ def __main__():
         print("[+] Connected!")
         print("[+] Will Save Recived Data to File rcv.data")
         print("[+] Sending Message Spam. Press CTRL+C to exit and Break the Connection..")
+        data = conn.recv(99999)
+        file = open("rcv.data", "wb")
+        file.write(data)
+        file.close()
         while True:
             try:
-                data = conn.recv(99999)
-                file = open("rcv.data", "wb")
-                file.write(data)
-                file.close()
-                conn.send(msg.encode)
+                
+                conn.send(msg.encode())
             except KeyboardInterrupt as e:
-                print(Fore.YELLOW+"[+] Keyboard Interrupt Detected.")
+                print(Fore.YELLOW+"[PYTHON] Keyboard Interrupt Detected.")
                 pass
             
         print("[+] Done! Returning back to Ruby in 5 Seconds.")
