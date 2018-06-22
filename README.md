@@ -23,3 +23,6 @@ To use, Start the Multi/Handler Exploit and fully take over your own PC with it.
 
 ## Contribute
 Submit any Suggestions and Ideas. I want to add this feature of fully taking control over the Attackers PC. Help me do it. 
+
+## Join me 
+[FAST Corporation] fastcorp.co.nf
