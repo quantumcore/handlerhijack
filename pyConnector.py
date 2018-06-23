@@ -1,5 +1,4 @@
 import socket, time
-import sys
 from colorama import Style, Fore
 
 
