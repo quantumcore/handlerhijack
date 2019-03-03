@@ -13,13 +13,12 @@ So there are two ways to Connect. Python and Ruby.
 Version 1.
 
 ## How to Use : 
-To use, Start the Multi/Handler Exploit and fully take over your own PC with it. Then start Handler_Hijack.
+To use, Start the Multi/Handler Exploit and fully take over a PC with it with Authorization of the Owner. Let the victim use this to defend himself.
 
 ## Built for : 
 - Kali Linux
 - Kali Rolling
 - Parrot OS
-- Windows (Coming soon)
 
 ## Contribute
 Submit any Suggestions and Ideas. I want to add this feature of fully taking control over the Attackers PC. Help me do it. 
